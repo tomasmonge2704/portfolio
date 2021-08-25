@@ -80,17 +80,20 @@ section{
 }
 
 header{
+   
     position: fixed;
     top:0; left:0;
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a00;
+    background:#1a1a1a00 ;
+    backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
     text-align: center;
+    
 }
 
 header .user img{
@@ -100,6 +103,7 @@ header .user img{
     object-fit: cover;
     margin-bottom: 1rem;
     border:.4rem solid var(--yellow);
+   
 }
 
 header .user .name{
