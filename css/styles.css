@@ -86,7 +86,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#1a1a1a00 ;
+    background:#1a1a1a00;
     backdrop-filter: blur(10px);
     display: flex;
     align-items: center;
