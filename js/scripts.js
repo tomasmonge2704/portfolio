@@ -37,4 +37,10 @@ $(document).ready(function(){
   
   });
 
+  $(function() {
+    $('.scroll-down').click (function() {
+      return false;
+    });
+  });
+  /*BARRAS DE PROGRESO*/ 
  
