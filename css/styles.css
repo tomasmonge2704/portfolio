@@ -381,7 +381,7 @@ padding: 1rem 0;
     font-size: 2rem;
     color: #929292;
     padding: 1rem 0;
-    padding-left: 10rem;
+    text-align: center;
     }
 #comentario-header {
     font-size: 2rem;
@@ -697,7 +697,12 @@ svg circle:nth-child(2){
     html{
         font-size: 50%;
     }
- 
+    .portfolio .box-container .box{
+        width:230px;
+    }
+    .portfolio .box-container .box img{
+        width:100%;
+    }
  }
 
 @media (max-width:400px){
