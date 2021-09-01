@@ -449,7 +449,7 @@ padding: 1rem 0;
   }
 }
 
-/*/////////////////////////////////////////////////////////////////////////////////  */
+/*///////ICONOS FOOTER START////////////////  */
 .iconos {
     align-items: center;
     justify-content: center;
@@ -463,7 +463,7 @@ padding: 1rem 0;
     width: 100%;
     height: 10%;
     align-items: center;
-    justify-content: center;
+    
   }
   
  .iconos ul li {
@@ -493,7 +493,7 @@ padding: 1rem 0;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #00ff55;
+    background: #f8ca24;
     transition: .5s;
     transform: scale(.9);
     z-index: -1;
@@ -501,15 +501,17 @@ padding: 1rem 0;
   
   .iconos ul li a:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #00ff55;
+    box-shadow: 0 0 15px #f8ca24;
   }
   
   .iconos ul li a:hover {
-    color: #00ff55;
-    box-shadow: 0 0 5px #00ff55;
-    text-shadow: 0 0 5px #00ff55;
+    color: #f8ca24;
+    box-shadow: 0 0 5px #f8ca24;
+    text-shadow: 0 0 5px #f8ca24;
   }
 
+
+ /*///////ICONOS FOOTER END////////////////  */
 /* barra de progeso  */
 
 .container {
