@@ -96,8 +96,8 @@ header{
 }
 
 header .user img{
-    height:30rem;
-    width:30rem;
+    height:26rem;
+    width:26rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
@@ -455,6 +455,7 @@ padding: 1rem 0;
 }
 
 /*///////ICONOS FOOTER START////////////////  */
+
 .iconos {
     align-items: center;
     justify-content: center;
@@ -468,7 +469,6 @@ padding: 1rem 0;
     width: 100%;
     height: 10%;
     align-items: center;
-    
   }
   
  .iconos ul li {
@@ -526,7 +526,6 @@ padding: 1rem 0;
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 50px;
-
 }
 .container .card {
     position: relative;
@@ -746,8 +745,7 @@ svg circle:nth-child(2){
         height: 150%;
        
     }
-    
- }
+}
 
 @media (max-width:400px){
 
@@ -774,7 +772,7 @@ svg circle:nth-child(2){
     .contact .row form{
         margin:3rem 0;
     }
-
+    .iconos ul {
+        padding-left: 7%;
+    }
  }
-
- 
