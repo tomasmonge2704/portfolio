@@ -302,6 +302,7 @@ header .navbar ul li a:hover{
     height:100%;
     width:100%;
     object-fit: cover;
+    position:sticky ;
 }
 
 .portfolio .box-container .box:hover img{
@@ -800,4 +801,8 @@ svg circle:nth-child(2){
 		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
 		background: hsl(random(360), 70%, 50%);
 	}
+}
+.portfolio .particle{
+    position:unset;
+
 }
