@@ -296,12 +296,14 @@ header .navbar ul li a:hover{
     margin:2rem;
     overflow: hidden;
     cursor: pointer;
+    position:sticky;
 }
 
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
     object-fit: cover;
+
 }
 
 .portfolio .box-container .box:hover img{
