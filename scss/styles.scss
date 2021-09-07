@@ -793,7 +793,7 @@ svg circle:nth-child(2){
  .particle {
 	position:absolute;
  	border-radius: 50%;
-     z-index: 1;
+    
     
 }
 
@@ -814,8 +814,4 @@ svg circle:nth-child(2){
 		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
 		background: hsl(random(360), 70%, 50%);
 	}
-}
-.portfolio .particle{
-    position:unset;
-
 }
