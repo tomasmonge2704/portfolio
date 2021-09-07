@@ -791,9 +791,9 @@ svg circle:nth-child(2){
  }
 
  .particle {
-	position: absolute;
+	position: unset;
  	border-radius: 50%;
-     z-index: 0;
+     z-index: 1;;
     
 }
 
