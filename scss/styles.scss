@@ -186,7 +186,7 @@ header .navbar ul li a:hover{
     flex-wrap: wrap;
     padding:1rem 0;
     position:relative;
-    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform:translate3d(0,0,1);
     z-index: 2;
 }
 
@@ -326,7 +326,7 @@ header .navbar ul li a:hover{
     flex:1 1 30rem;
     padding:4rem;
   position: relative;
-  -webkit-transform:translate3d(0,0,0);
+  -webkit-transform:translate3d(0,0,1);
   z-index: 2;
 }
 
@@ -696,7 +696,7 @@ svg circle:nth-child(2){
     width: 100%;
     position: fixed;
     z-index: 1000;
-    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform:translate3d(0,0,1);
    }
 
    body{
@@ -794,6 +794,7 @@ svg circle:nth-child(2){
 	position: absolute;
  	border-radius: 50%;
      z-index: 1;
+     -webkit-transform:translate3d(0,0,0);
 }
 
 @for $i from 1 through 30 {
